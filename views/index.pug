@@ -1,0 +1,34 @@
+extends layout
+block content
+  h1 Gile Messaging System
+  // enctype="multipart/form-data"
+  form#form(method='POST', action='/logsave')
+    .form-control
+      label#label-email(for='category')
+        | Category
+      select(name="category", required)
+        option(value="Sports") Sports
+        option(value="Finance") Finance
+        option(value="Movies") Movies
+    .form-control
+      label(for='message')
+        | Please fill in message to be sent. 
+      // multi-line text input control
+      textarea#comment(name='message' placeholder='Enter your message here' required)
+    // Multi-line Text Input Control
+    button(type='submit' value='submit')
+      | Submit
+  p
+  p
+  table
+      thead
+         tr
+            th  User name
+            th  Date Send
+            th  Time Send
+            th  notification-type
+            th  category
+            th  message-data
+      tbody(id="data-output")
+  script(src="/javascripts/myscripts.js")
+         <!-- Prodcuts from javascript file in here. -->
