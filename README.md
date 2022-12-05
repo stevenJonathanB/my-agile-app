@@ -1,4 +1,4 @@
-# my-agile-app 
+# MESSAGES APP 
 The application is working properly as tested and implements a messaging system with mockup users in code.
 
 You should have node.js installed to run the app with "npm start". That will run app.js which is in the root.
