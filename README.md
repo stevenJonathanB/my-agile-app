@@ -13,4 +13,4 @@ The JSON file  which serves as a logfile can be found in public/messageslogfile.
 
 users and classes and functions can be found in public/javascripts/submitmessages.js
 
-the table in the mainscreen is populated from messageslogfile.json through code you can find in in public/javascripts/myscripts.jsb
+the table in the mainscreen is populated from messageslogfile.json through code you can find in in public/javascripts/myscripts.js
